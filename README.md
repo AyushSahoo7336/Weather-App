@@ -1,16 +1,101 @@
-# React + Vite
+# 🌦️ Weather App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Weather Application** built using **React** that allows users to search for any city and view the **current weather conditions** including temperature, humidity, minimum and maximum temperature, and weather description.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search weather by **city name**
+* 🌡️ Shows **current temperature**
+* 💧 Displays **humidity level**
+* 📉 Shows **minimum temperature**
+* 📈 Shows **maximum temperature**
+* ☁️ Displays **weather description**
+* 🎨 Clean and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js**
+* **JavaScript (ES6)**
+* **CSS**
+* **Vite**
+* Weather API
+
+---
+
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally.
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/weather-app.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd weather-app
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+Now open your browser and go to:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```
+weather-app
+│
+├── src
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── components
+│
+├── public
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🔮 Future Improvements
+
+* 🌍 Add **5-day weather forecast**
+* 📍 Detect **user location automatically**
+* 🎨 Improve UI with animations
+* 🌙 Add **Dark Mode**
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Sahoo**
+
+* GitHub: https://github.com/AyushSahoo7336
+
+---
+
